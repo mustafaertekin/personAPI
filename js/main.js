@@ -39,7 +39,7 @@ class PersonApi {
       addToPersonList() {
         this.persons.push(new Person(this.data));
         this.generateList();
-        // this.getAndSetFields();
+        this.getAndSetFields();
       }
     
       generateList(){
